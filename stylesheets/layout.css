@@ -1,0 +1,39 @@
+.body {
+    background-color: gray;
+    width: 1280px;
+    height:1280px;
+}
+.rectangle{
+    width: 463px;
+    height: 469px;
+    background-color: black;
+    border: 2px solid #000000; 
+    margin-left: 523px;
+    margin-top: 253px;
+}
+.line1 {
+    margin-left: 350px;      
+    margin-top: -450px;    
+    width: 875.94px;   
+    height: 28px; 
+    background-color: rgba(68, 208, 208, 1); 
+    transform: rotate(21.5deg);
+  }
+  .line2 {
+    margin-left: 197px;      
+    margin-top:-100px;    
+    width: 776.43px;   
+    height: 48px; 
+    background-color:rgba(126, 0, 0, 1); 
+    transform: rotate(-27.29deg);
+  }
+  .triangle {
+    margin-left: 303px;
+    margin-top: -50px;
+    width: 0;
+    height: 0;
+    border-left: calc(299.22px / 2) solid transparent;
+    border-right: calc(299.22px / 2) solid transparent;
+    border-bottom: 563.69px solid rgba(115,115,115,1);   
+    transform: rotate(-31.2deg);
+  }

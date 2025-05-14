@@ -1,0 +1,51 @@
+@keyframes rotateRectangle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateLine1 {
+    from {
+        transform: rotate(21.5deg);
+    }
+    to {
+        transform: rotate(381.5deg);
+    }
+}
+
+@keyframes rotateLine2 {
+    from {
+        transform: rotate(-27.29deg);
+    }
+    to {
+        transform: rotate(332.71deg);
+    }
+}
+
+@keyframes rotateTriangle {
+    from {
+        transform: rotate(-31.2deg);
+    }
+    to {
+        transform: rotate(328.8deg);
+    }
+}
+
+.rectangle {
+    animation: rotateRectangle 10s linear infinite;
+}
+
+.line1 {
+    animation: rotateLine1 8s linear infinite;
+}
+
+.line2 {
+    animation: rotateLine2 12s linear infinite;
+}
+
+.triangle {
+    animation: rotateTriangle 15s linear infinite;
+}
